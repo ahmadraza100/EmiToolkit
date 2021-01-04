@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@font-face {
+    font-family:head;
+    src: url("/fonts/Economica/Economica-Bold.ttf")
+}
+@font-face {
+    font-family:main;
+    src: url("/fonts/Leckerli/LeckerliOne-Regular.ttf")
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url("/fonts/Balsamiq_Sans/BalsamiqSans-Bold.ttf")
+}
+@font-face {
+    font-family:do hoyen ;
+    src: url("/fonts/Do_Hyeon/DoHyeon-Regular.ttf")
+}
+@font-face {
+    font-family: Electrolize;
+    src: url("/fonts/Electrolize/Electrolize-Regular.ttf")
+
+}
+
+@font-face {
+font-family: Encode Sans ;
+src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url("/fonts/Heebo/Heebo-VariableFont_wght.ttf")
+}
+@font-face {
+    font-family: JetBrains Mono;
+    src: url("/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf")
+}
+
+@font-face {
+    font-family: Montserrat;
+      src: url("/fonts/Montserrat/Montserrat-Black.ttf")
+    }
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.head{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+.firststrip{
+    background-color:purple;
+    width:100%;
+    text-align: center;
+    padding:15px 20px;
+}
+
+.firststrip > h1{
+    font-size:2.3rem;
+    font-family: "Electrolize";
+    color: white;
+}
+
+.secondstrip {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    background-color:black;
+    width:100%;
+}
+
+.secondchil{
+    margin:0px 400px;
+
+}
+
+.secondchil0{
+    font-size:3rem;
+    margin:10px 40px;
+    color:red;
+    padding-bottom:5px;
+}
+
+.secondchil1 >ul{
+    display:flex;
+    flex-direction: row;
+}
+.secondchil1 >ul >li{ 
+    margin:20px 50px;
+    list-style-type: none;
+    font-size:2.5rem;
+    font-family: "do hoyen";
+    
+    color:red;
+}
+
+.secondchil1 >ul >li > a{ 
+    text-decoration:none;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+
+    background-image: url(/pics/pic5.jpg);
+}
+
+.cchild1{
+    width:20vw;
+    height:100vh;
+    background-color:white;
+    margin-right: 10px;
+    opacity: 80%;
+    margin-left:10px;
+    margin-top:10px;
+    border-radius:20px;
+    border:2px solid white;
+    margin-bottom:10px;
+    box-shadow: 5px 5px 10px yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+.cchild2{
+    display:flex;
+    flex-direction:column;
+    width:80vw;
+    background-color:white;
+    opacity: 70%;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 20px;
+    border-radius:20px;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+
+.cchild2 >h1{
+    font-size:6rem;
+    font-family:"Electrolize";
+    color:purple;
+}
+.cchild2 >h2{
+    font-size:2rem;
+    font-family:"do hoyen";
+    text-transform: uppercase;
+}
+
+.item{
+    margin:3vh 40px;
+    background-color:yellow;
+    text-align: center;
+    padding:15px;
+    position: relative;
+
+    font-family: "Electrolize";
+    font-size:1.5rem;
+    border:2px solid black;
+    border-radius:20px;
+    color:white;
+    box-shadow: 3px 3px 7px black , -3px -3px 7px black;
+}
+
+.item >a{
+    text-decoration:none;
+    color:black;
+}
+
+.item:hover{
+    transform:translateX(10px);
+    transition:.5s;
+    box-shadow: 5px 5px 13px red , -5px -5px 13px red;
+
+}
