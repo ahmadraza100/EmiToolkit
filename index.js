@@ -1,16 +1,31 @@
 
 function f1(){
-    let facebook =document.getElementById("fb").value;
-    let instagram =document.getElementById("insta").value;
-    let youtube =document.getElementById("youtube").value;
-    let time =document.getElementById("year").value;
+    let f =document.getElementById("fb").value;
+    let facebook = parseInt(f);
+    let i =document.getElementById("insta").value;
+    let instagram = parseInt(i);
+    let y =document.getElementById("youtube").value;
+    let youtube = parseInt(y);
+    let s =document.getElementById("Snapchat").value;
+    let snapchat = parseInt(s)
 
-    ytom(time);
+    let t =document.getElementById("year").value;
+    let time = parseInt(t)
+    let total = (facebook+youtube+instagram+snapchat);
+    let totaltodays = total*365;
 
-    function ytom(t){
-        let time =2021 -t ;
-        let days = time*365;
-        alert(days)
+
+    ytom(time,totaltodays);
+
+    function ytom(t,totall){
+        let yearTime =2021 -t ;
+        let totalT = totall*yearTime;
+        
+        
+        
     }
+    
+    let a =  document.getElementsByClassName("resultt").style.display= "hidden";
+ 
     
 }
