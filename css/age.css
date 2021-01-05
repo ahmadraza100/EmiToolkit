@@ -231,7 +231,21 @@ form{
     font-size:5rem;
     justify-content:center;
     align-items:center;
-    margin:20px;
+    padding-bottom:110px;
+    text-align:center;
+}
+
+thead >tr{
+
+ 
+    text-align:center;
+    font-size:2rem;
+}
+
+tr>h3{
+    font-size:1rem;
+    padding:10px 100px;
+  
 }
 
 
