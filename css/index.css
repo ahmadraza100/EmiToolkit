@@ -73,7 +73,7 @@ src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
     flex-direction: row;
     align-items: flex-end;
 
-    background-color:black;
+    background-color:white;
     width:100%;
 }
 
@@ -115,16 +115,20 @@ src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
 
 .cchild1{
     width:20vw;
-    height:100vh;
-    background-color:white;
+    height:85vh;
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f05053, #e1eec3 ,purple);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f05053, #e1eec3,purple);
+    
+  
     margin-right: 10px;
-    opacity: 80%;
-    margin-left:10px;
-    margin-top:10px;
+
+    margin-left:50px;
+    margin-top:40px;
     border-radius:20px;
     border:2px solid white;
-    margin-bottom:10px;
-    box-shadow: 5px 5px 10px yellow;
+    margin-bottom:50px;
+    
     align-items: center;
     justify-content: center;
 }
@@ -133,12 +137,15 @@ src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
     display:flex;
     flex-direction:column;
     width:80vw;
-    background-color:white;
-    opacity: 70%;
-    margin-left:10px;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-right: 20px;
+    box-shadow: 8px 8px 40px purple , -8px -8px 40px hotpink ;
+    opacity: 90%; 
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    margin-left:60px;
+    margin-top:40px;
+    margin-bottom:70px;
+    margin-right: 100px;
     border-radius:20px;
     align-items:center;
     justify-content:center;
@@ -149,12 +156,13 @@ src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
 .cchild2 >h1{
     font-size:6rem;
     font-family:"Electrolize";
-    color:purple;
+    color:white;
 }
 .cchild2 >h2{
     font-size:2rem;
     font-family:"do hoyen";
     text-transform: uppercase;
+    padding-top: 50px;
 }
 
 .item{
