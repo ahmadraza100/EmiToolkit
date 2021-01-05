@@ -1,8 +1,8 @@
 
 
 
-                          
-                          // SM-CALCULATOR
+
+// SM-CALCULATOR
 
 function f1() {
     let f = document.getElementById("fb").value;
@@ -29,11 +29,11 @@ function ytom(t, totall) {
 
 
     let yearTime = 2021 - t;
-    let totalT = Math.floor((totall * yearTime)/24);
-    
-    
-        document.querySelector("#result").innerHTML = `<h1 syle="text-align:centre">You spent <br /> \"<b>${totalT}</b>"\ Days <br/>of your Life on Social Media</h1>`;
-    
+    let totalT = Math.floor((totall * yearTime) / 24);
+
+
+    document.querySelector("#result").innerHTML = `<h1 syle="text-align:centre">You spent <br /> \"<b>${totalT}</b>"\ Days <br/>of your Life on Social Media</h1>`;
+
 }
 
 document.getElementById("btn").addEventListener("click", function () {
@@ -56,4 +56,20 @@ document.getElementById("btn").addEventListener("click", function () {
 
 
 
-                //   Age to Hours
+//   Age to Hours
+
+var age = document.getElementById("ageyear").value;
+var ageInt = parseInt(age);
+
+
+function f2(my){
+    var inHour = my * 365 * 24;
+    return inHour;
+}
+
+document.querySelector("#btnn").addEventListener("click", function () {
+  
+    document.querySelector("#r").style.display = "none";
+   
+    
+})
