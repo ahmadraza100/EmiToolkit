@@ -11,5 +11,6 @@ function a(){
     document.getElementById("rqst").style.visibility = "hidden";
     document.getElementById("resultt").style.display = "block";
     document.querySelector("#resultt").innerHTML =`<h1 >You age in Hour is <br /> \"<b>${final}</b>"</h1>`;
+    
 }
 

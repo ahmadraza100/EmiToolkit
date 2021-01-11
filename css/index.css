@@ -72,8 +72,10 @@ src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
     display:flex;
     flex-direction: row;
     align-items: flex-end;
-
-    background-color:white;
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     width:100%;
 }
 
@@ -163,6 +165,8 @@ src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
     font-family:"do hoyen";
     text-transform: uppercase;
     padding-top: 50px;
+    text-decoration: underline;
+  
 }
 
 .item{

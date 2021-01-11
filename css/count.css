@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@font-face {
+    font-family:head;
+    src: url("/fonts/Economica/Economica-Bold.ttf")
+}
+@font-face {
+    font-family:main;
+    src: url("/fonts/Leckerli/LeckerliOne-Regular.ttf")
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url("/fonts/Balsamiq_Sans/BalsamiqSans-Bold.ttf")
+}
+@font-face {
+    font-family:do hoyen ;
+    src: url("/fonts/Do_Hyeon/DoHyeon-Regular.ttf")
+}
+@font-face {
+    font-family: Electrolize;
+    src: url("/fonts/Electrolize/Electrolize-Regular.ttf")
+
+}
+
+@font-face {
+font-family: Encode Sans ;
+src: url("/fonts/Encode_Sans_Condensed/EncodeSansCondensed-Black.ttf")
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url("/fonts/Heebo/Heebo-VariableFont_wght.ttf")
+}
+@font-face {
+    font-family: JetBrains Mono;
+    src: url("/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf")
+}
+
+@font-face {
+    font-family: Montserrat;
+      src: url("/fonts/Montserrat/Montserrat-Black.ttf")
+    }
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.head{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+.firststrip{
+    background-color:purple;
+    width:100%;
+    text-align: center;
+    padding:15px 20px;
+}
+
+.firststrip > h1{
+    font-size:2.3rem;
+    font-family: "Electrolize";
+    color: white;
+}
+
+.secondstrip {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    background-color:white;
+    width:100%;
+}
+
+.secondchil{
+    margin:0px 400px;
+
+}
+
+.secondchil0{
+    font-size:3rem;
+    margin:10px 40px;
+    color:red;
+    padding-bottom:5px;
+}
+
+.secondchil1 >ul{
+    display:flex;
+    flex-direction: row;
+}
+.secondchil1 >ul >li{ 
+    margin:20px 50px;
+    list-style-type: none;
+    font-size:2.5rem;
+    font-family: "do hoyen";
+    
+    color:red;
+}
+
+.secondchil1 >ul >li > a{ 
+    text-decoration:none;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+
+    background-image: url(/pics/pic5.jpg);
+    background-size: cover;
+}
+
+.cchild1{
+    width:20vw;
+    height:90vh;
+    background: #e1eec3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f05053, #e1eec3 ,purple);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f05053, #e1eec3,purple); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-right: 10px;
+    
+    margin-left:50px;
+    margin-top:10px;
+    border-radius:20px;
+    border:2px solid white;
+    margin-bottom:10px;
+    box-shadow: 5px 5px 10px yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+thead>tr{
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.cchild2{
+    display:flex;
+    flex-direction:column;
+    width:80vw;
+ 
+    
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 20px;
+    border-radius:20px;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+
+.cchild2 >h1{
+    font-size:6rem;
+    font-family:"Electrolize";
+    color:purple;
+}
+.cchild2 >h2{
+    font-size:2rem;
+    font-family:"do hoyen";
+    text-transform: uppercase;
+}
+
+.item{
+    margin:3vh 40px;
+    background-color:yellow;
+    text-align: center;
+    padding:15px;
+    position: relative;
+
+    font-family: "Electrolize";
+    font-size:1.5rem;
+    border:2px solid black;
+    border-radius:20px;
+    color:white;
+    box-shadow: 3px 3px 7px black , -3px -3px 7px black;
+}
+
+.item >a{
+    text-decoration:none;
+    color:black;
+}
+
+.item:hover{
+    transform:translateX(10px);
+    transition:.5s;
+    box-shadow: 5px 5px 13px red , -5px -5px 13px red;
+    background-color: white;
+    
+
+}
+
+.smcal{
+        font-size:2rem;
+        border-radius:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        position: absolute;
+        padding:50px;
+        top:200px;
+        color:white;
+        background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        box-shadow: 8px 8px 40px purple , -8px -8px 40px hotpink ;
+        font-family: "do hoyen";
+        letter-spacing: 5px;
+        transform: translateX(0px);
+    transition: all 0.8s ease;
+}
+
+.ip:focus{
+  outline-style: none;
+}
+
+.smcal :hover{
+    transform: translateX(5px);
+    transition: all 0.8s ease;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size:5rem;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:110px;
+    text-align:center;
+}
+
+thead >tr{
+
+ 
+    text-align:center;
+    font-size:2rem;
+}
+
+tr>h3{
+    font-size:1rem;
+    padding:10px 100px;
+  
+}
+
+
+.ip{
+    font-size:3rem;
+    border-radius:20px;
+    border:5px solid purple;
+    background: #8A2387;  
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+    color:white;
+    text-align: center;
+    scroll-behavior:none;
+
+}
+.ip::placeholder{
+    color:white;
+    opacity:50%;
+}
+.ip:focus::placeholder{
+    color:transparent;
+}
+
+tr :hover {
+    transform:translateX(-100px);
+
+    transition: all 0.5s ease;
+  
+ 
+}
+
+
+.ip:hover{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+}
+
+.ip:focus{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+}
+
+
+button{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+    font-size:3rem;
+    padding:40px;
+    color:white;
+    border-radius: 90px;
+    border:3px solid white;
+    transform:translateY(0%);
+    transition: all 0.5s ease;
+    
+}
+
+button:hover{
+    transform:translateY(5%);
+    transition: all 0.5s ease;
+    background-color:purple;
+    box-shadow: 5px 5px 10px yellow , -5px -5px 10px yellow;
+    border:3px solid black;
+}
+
+ #resulcount{
+     
+    margin-top:60px;
+    font-size:3rem;
+    
+}
+
